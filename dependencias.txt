@@ -1,0 +1,10 @@
+iconic 2.0 + angular 2.0
+
+npm install -g cordova
+
+npm install -g ionic@beta
+
+$ PROXY=http://172.17.1.163:8080 ionic start proyectoIonic2 blank --v2 --ts
+
+Test app:
+$ ionic serve --lab
